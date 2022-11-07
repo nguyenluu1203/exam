@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-	printf("Enter 10 intergers \n");
+	printf("nhap 10 so nguyen \n");
 	
 	int array[10];
 	for (int i=0;i<10;i++){
-		printf("a[%d] ",i+1);
+		printf("nhap so nguyen thu %d: ",i+1);
 		scanf("%d",&array[i]);
 	}
 	for( int i=9;i>=0; i--){
